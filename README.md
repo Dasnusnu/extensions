@@ -4,6 +4,33 @@ User-contributed unsandboxed extension gallery for TurboWarp.
 
 https://extensions.turbowarp.org/
 
+## Kano Wand PR Branch
+
+This checkout is being used to prepare the Kano Wand extension for an official TurboWarp Extension Gallery pull request.
+
+Local files for the Kano Wand extension:
+
+- `extensions/jacob/KanoWand.js`
+- `docs/jacob/KanoWand.md`
+- `images/jacob/KanoWand.svg`
+
+Useful development commands:
+
+```sh
+npm ci
+npm run validate
+npm run lint
+npm run format
+```
+
+To test locally, run the TurboWarp extension gallery development server:
+
+```sh
+npm start
+```
+
+Then load the Kano Wand extension from the local gallery/dev server. Hardware testing should be done in Chrome or Microsoft Edge with a real Kano Harry Potter Coding Wand. The pull request should mention that AI assistance was used and describe the human review and hardware testing that were performed.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
